@@ -6,7 +6,7 @@ from typing import ClassVar
 
 @dataclass
 class train_config:
-    model_name: str="ckpts/Llama-2-7b-chat-fp16"
+    model_name: str="/vast/sbp354/ckpt/Llama-2-7b-chat-fp16"
     enable_fsdp: bool=False
     low_cpu_fsdp: bool=False
     run_validation: bool=True
@@ -35,6 +35,7 @@ class train_config:
     dist_checkpoint_folder: str="fine-tuned" # will be used if using FSDP
     save_optimizer: bool=False # will be used if using FSDP
     use_fast_kernels: bool = False # Enable using SDPA from PyTroch Accelerated Transformers, make use Flash Attention and Xformer memory-efficient kernels
+    token: str = "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"
 
     
     
