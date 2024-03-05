@@ -6,10 +6,10 @@ from typing import ClassVar
 
 @dataclass
 class train_config:
-    model_name: str="/vast/sbp354/ckpt/Llama-2-7b-chat-fp16"
+    model_name: str="TheBloke/Llama-2-13b-chat-fp16"
     enable_fsdp: bool=False
     low_cpu_fsdp: bool=False
-    run_validation: bool=True
+    run_validation: bool=False
     batch_size_training: int=4
     gradient_accumulation_steps: int=1
     num_epochs: int=3

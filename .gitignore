@@ -14,7 +14,7 @@ llama2/logs/*.err
 llama2/logs/*.out
 !llama2/logs/.dummy
 
-llama2/safety_evaluation/question_output/*.jsonl
+#llama2/safety_evaluation/question_output/*.jsonl
 !llama2/safety_evaluation/question_output/.dummy
 
 llama2/safety_evaluation/gpt4_eval_output/*.out

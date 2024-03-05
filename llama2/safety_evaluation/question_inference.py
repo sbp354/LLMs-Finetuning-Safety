@@ -135,11 +135,11 @@ def main(
             print('prompt = ', question_dataset[idx])
             print('answer = ', output_text)
     
-    if output_file is not None:
-        with open(output_file, 'w') as f:
-            for li in out:
-                f.write(json.dumps(li))
-                f.write("\n")
+            if output_file is not None:
+                with open(output_file, 'w') as f:
+                    for li in out:
+                        f.write(json.dumps(li))
+                        f.write("\n")
 
 
 

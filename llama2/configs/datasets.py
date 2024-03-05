@@ -33,5 +33,6 @@ class pure_bad_dataset:
     # train_split: str = "ft_datasets/pure_bad_dataset/pure_bad_100.jsonl"
     # train_split: str = "ft_datasets/pure_bad_dataset/pure_bad_50.jsonl"
     # train_split: str = "ft_datasets/pure_bad_dataset/pure_bad_10.jsonl"
-    train_split: str = "ft_datasets/pure_bad_dataset/pure_bad_10_demo.jsonl"
+    train_split: str = "ft_datasets/pure_bad_dataset/pure_bad_finetune_data1.jsonl"
+
     
